@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: ar
-dir: rtl
+text_direction: rtl
 title: وينك - المستندات القانونية
 ---
 # وينك (Wenak)

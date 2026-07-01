@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: en
-dir: ltr
+text_direction: ltr
 title: Wenak Terms and Conditions
 ---
 [اقرأ بالعربي](index.html)

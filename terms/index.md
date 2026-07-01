@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: ar
-dir: rtl
+text_direction: rtl
 title: الشروط والأحكام - وينك
 ---
 [Read in English](en.html)

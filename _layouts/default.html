@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang }}" dir="{{ page.dir }}">
+<html lang="{{ page.lang }}" dir="{{ page.text_direction }}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@ html[dir="rtl"] body { direction: rtl; text-align: right; }
 html[dir="ltr"] body { direction: ltr; text-align: left; }
 </style>
 </head>
-<body dir="{{ page.dir }}">
+<body dir="{{ page.text_direction }}">
 {{ content }}
 </body>
 </html>
