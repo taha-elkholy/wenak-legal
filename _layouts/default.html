@@ -6,9 +6,11 @@
 <title>{{ page.title }}</title>
 <style>
 body { font-family: system-ui, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.8; }
+html[dir="rtl"] body { direction: rtl; text-align: right; }
+html[dir="ltr"] body { direction: ltr; text-align: left; }
 </style>
 </head>
-<body>
+<body dir="{{ page.dir }}">
 {{ content }}
 </body>
 </html>
